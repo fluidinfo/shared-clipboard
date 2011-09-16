@@ -35,6 +35,9 @@ We currently have code for:
  - The [Emacs](http://www.gnu.org/software/emacs/) text editor.
  - [Python](http://python.org).
 
+You can also get to clipboard tags by accessing Fluidinfo directly, e.g.
+`curl http://fluiddb.fluidinfo.com/about/terrycojones/terrycojones/clipboard`
+
 Adding to the collection
 ------------------------
 
