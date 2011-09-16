@@ -1,5 +1,8 @@
-var fi = fluidinfo({ username: 'USERNAME', password: 'PASSWORD' });
-var tag = 'USERNAME/clipboard';
+var USERNAME = 'username'; // Change this to hold your Fluidinfo username.
+var PASSWORD = 'password'; // Change this to hold your Fluidinfo password.
+
+var fi = fluidinfo({ username: USERNAME, password: PASSWORD });
+var tag = USERNAME + '/clipboard';
 
 
 function getClickHandlerInsert() {
@@ -34,7 +37,7 @@ function getClickHandlerSet() {
             valuesArg[tag] = info.selectionText;
             var options = {
                 values: valuesArg,
-                about: '/terrycojones',
+                about: '/' + USERNAME,
                 onSuccess: function(result) { console.log('Tag set.'); },
                 onError: function(result) { console.log(result); }
             };
@@ -86,7 +89,6 @@ chrome.contextMenus.create({
     'contexts' : ['editable'],
     'onclick' : getClickHandlerInsert()
 });
-
 
 // A context menu item for saving the selection to the clipboard.
 chrome.contextMenus.create({
