@@ -5,9 +5,10 @@ The shared clipboard does what it says on the label. Use it to share a
 clipboard between applications you're using on different devices, or
 between different people. For example, you might use Dragon Dictate on a
 Mac to compose some text, and then yank it into your editor running on a
-Linux machine for final editing. Or, highlight some text in your browser so
+Linux machine for final editing. Or highlight some text in your browser so
 someone you're talking to on Skpye can immediately yank it into a Gmail
-message.
+message. Or at the shell, pipe some output into the clipboard setting script
+and yank it into your editor.
 
 The idea for sharing a clipboard in this way came from [Hilary
 Mason](http://www.hilarymason.com/).  Thanks Hilary!
