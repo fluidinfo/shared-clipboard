@@ -29,8 +29,10 @@ Available utilities
 
 We currently have code for:
 
+ - Command line.
  - Chrome-based browsers ([Chromium](http://www.chromium.org/Home) and [Chrome](http://www.google.com/chrome)).
  - The [Emacs](http://www.gnu.org/software/emacs/) text editor.
+ - [Python](http://python.org).
 
 Adding to the collection
 ------------------------
