@@ -30,12 +30,12 @@ function insertAtCaret(text) {
         txtarea.focus();
     }
     txtarea.scrollTop = scrollPos;
-};
+}
 
 // Listen for messages from the background page.
 chrome.extension.onRequest.addListener(
     function(request, sender, sendResponse) {
         insertAtCaret(request);
         sendResponse("ok, done");
-    };
-});
+    }
+);
